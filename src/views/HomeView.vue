@@ -1,4 +1,6 @@
 <script setup>
+import ufsmonitor from '@/assets/ufsmonitor.png';
+import mmorpg from '@/assets/mmorg.png';
 import { BiGithub } from "oh-vue-icons/icons";
 // const { TweenMax, _ } = window
 // /**
@@ -250,21 +252,18 @@ import { BiGithub } from "oh-vue-icons/icons";
     </section>
 
     <section class="grid grid-cols-[40%_60%] gap-4 p-4">
-      <div class="about">
-        <div class="flex flex-col justify-center items-center">
+      <div class="flex flex-col justify-center items-center">
           <div class="flex flex-col text-7xl font-black text-white">
             <span>A</span>
             <span>B</span>
             <span>O</span>
             <span>U</span>
             <span>T</span>
-          </div>
-
         </div>
       </div>
       <div class="flex flex-col justify-center items-center">
         <div class="flex flex-col text-base font-bold text-white">
-          <span>
+          <span class="font-light text-justify">
             Sou um entusiasta da tecnologia que começou sua jornada no desenvolvimento de sistemas
             em 2017, estudando HTML, CSS,  JavaScript e PHP em apostilas na internet. Em 2018,
             ingressei no  Instituto Federal de Ciência e Tecnologia de Sergipe (IFS) no curso de
@@ -289,9 +288,134 @@ import { BiGithub } from "oh-vue-icons/icons";
             aprendendo e compartilhando conhecimento, buscando criar  soluções inovadoras que
             impactam positivamente o dia a dia das pessoas.</span>
         </div>
-
       </div>
+    </section>
 
+    <section class="grid grid-cols-[40%_60%] gap-4 p-4 mt-32">
+        <div class="flex flex-col justify-center items-center">
+          <div class="flex flex-col text-7xl font-black text-white">
+            <span>E</span>
+            <span>X</span>
+            <span>P</span>
+            <span>E</span>
+            <span>R</span>
+            <span>I</span>
+            <span>E</span>
+            <span>N</span>
+            <span>C</span>
+            <span>E</span>
+            <span>S</span>
+          </div>
+        </div>
+      <div class="flex flex-col justify-start items-start">
+        <div class="flex flex-col text-base font-bold text-white">
+
+          <div class="card">
+            <h3 class="text-white font-bold text-2xl">Analista de Sistemas Java</h3>
+            <p class="text-white text-base font-light text-justify mt-2">Depois de implementar diversas iniciativas de melhoria e padronização de código, implementação de fluxo organizacionais de equipe e práticas de desenvolvimento compatíveis com mercado enquanto estagiário, tive o reconhecimento ao qual me fez poder avançar ainda mais no desenvolvimento do projeto de cobrança de protesto como também a inovação em modernizar as execuções fiscais do município de Aracaju, desenvolvendo um ecossistema com micro serviços necessários para a manutenibilidade, desempenho e monitoramento dos fluxos. Idealizei e implementei serviços de comunicação com a fazenda municipal, serviços de extração de informações em certidões de dívida ativa, serviço de comunicação SOAP com o cartório. Além disso pude impactar diretamente em outros projetos, tanto coordenando, quanto desenvolvendo soluções para problemas recorrentes com integrações em sistemas terceirizados, sanando as dores que persistiam há algum tempo diante dos usuários, assim como realizar a criação de código modelo para a refatoração e upgrade de sistemas legados, para manter a segurança e a eficiência.
+            </p>
+          </div>
+
+          <div class="card mt-12">
+            <h3 class="text-white font-bold text-2xl">Desenvolvedor de Sistemas Java</h3>
+            <p class="text-white text-base font-light text-justify mt-2">Depois de implementar diversas iniciativas de melhoria e padronização de código, implementação de fluxo organizacionais de equipe e práticas de desenvolvimento compatíveis com mercado enquanto estagiário, tive o reconhecimento ao qual me fez poder avançar ainda mais no desenvolvimento do projeto de cobrança de protesto como também a inovação em modernizar as execuções fiscais do município de Aracaju, desenvolvendo um ecossistema com micro serviços necessários para a manutenibilidade, desempenho e monitoramento dos fluxos. Idealizei e implementei serviços de comunicação com a fazenda municipal, serviços de extração de informações em certidões de dívida ativa, serviço de comunicação SOAP com o cartório. Além disso pude impactar diretamente em outros projetos, tanto coordenando, quanto desenvolvendo soluções para problemas recorrentes com integrações em sistemas terceirizados, sanando as dores que persistiam há algum tempo diante dos usuários, assim como realizar a criação de código modelo para a refatoração e upgrade de sistemas legados, para manter a segurança e a eficiência.
+            </p>
+          </div>
+
+          <div class="card mt-12">
+            <h3 class="text-white font-bold text-2xl">Estágio em Desenvolvimento de Sistemas Java</h3>
+            <p class="text-white text-base font-light text-justify mt-2">Após uma pausa na carreira para aprofundar meus conhecimentos teóricos essenciais ao desenvolvimento como desenvolvedor, tive a oportunidade de estagiar na Procuradoria Geral do Município, onde apliquei na prática conceitos de modelagem de requisitos e engenharia de software. Nesse estágio, iniciei um projeto para modernizar o fluxo de cobrança de protestos da procuradoria, utilizando Java com o framework Spring. Esse trabalho proporcionou uma evolução significativa no meu domínio da linguagem Java e na aplicação de padrões de projeto.</p>
+          </div>
+
+          <div class="card mt-12">
+            <h3 class="text-white font-bold text-2xl">Desenvolvedor de Sistemas PHP</h3>
+            <p class="text-white text-base font-light text-justify mt-2">Graças ao esforço realizado no estágio pude desenvolver minhas habilidades ao ponto de ser contrato, com isso novos desafios foram necessário como dar manutenção em sistemas legados e que me deu uma sólida experiência em melhorias e otimização de código e também me fez colocar em prática os princípios de Clean Code assim tornando o sistema mais eficiente e fácil de manter. Também desenvolvi habilidades em comunicação e trabalho em equipe, além de contribuir com o levantamento de requisitos e estimativas de tarefas, o que facilitou a coordenação e execução dos projetos.</p>
+          </div>
+            <div class="card mt-12">
+              <h3 class="text-white font-bold text-2xl">Estágio em Desenvolvimento de Sistemas Java</h3>
+              <p class="text-white text-base font-light text-justify mt-2">Durante esse período de estágio, aperfeiçoei minhas habilidades na linguagem PHP, especialmente ao trabalhar com manutenção de sistemas legados. Aproveitei o período para estudar Laravel e VueJS, o que ampliou bastante o meu conhecimento em frameworks e me permitiu desenvolver integrações entre plataformas utilizando Webhooks e APIs. O período foi essencial para aprimorar tanto minha lógica de programação quanto minha experiência em desenvolvimento e manutenção de aplicações web.</p>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-[40%_60%] gap-4 p-4 mt-32">
+      <div class="flex flex-col justify-center items-center">
+        <div class="flex flex-col text-7xl font-black text-white">
+          <span>E</span>
+          <span>D</span>
+          <span>U</span>
+          <span>C</span>
+          <span>A</span>
+          <span>T</span>
+          <span>I</span>
+          <span>O</span>
+          <span>N</span>
+        </div>
+      </div>
+      <div class="flex flex-col justify-center items-center">
+        <div class="flex flex-col text-base font-bold text-white">
+          <div class="card">
+            <h3 class="text-white font-bold text-2xl">Universidade Federal de Sergipe</h3>
+            <p class="text-white text-base font-light text-justify mt-2">Depois de implementar diversas iniciativas de melhoria e padronização de código, implementação de fluxo organizacionais de equipe e práticas de desenvolvimento compatíveis com mercado enquanto estagiário, tive o reconhecimento ao qual me fez poder avançar ainda mais no desenvolvimento do projeto de cobrança de protesto como também a inovação em modernizar as execuções fiscais do município de Aracaju, desenvolvendo um ecossistema com micro serviços necessários para a manutenibilidade, desempenho e monitoramento dos fluxos. Idealizei e implementei serviços de comunicação com a fazenda municipal, serviços de extração de informações em certidões de dívida ativa, serviço de comunicação SOAP com o cartório. Além disso pude impactar diretamente em outros projetos, tanto coordenando, quanto desenvolvendo soluções para problemas recorrentes com integrações em sistemas terceirizados, sanando as dores que persistiam há algum tempo diante dos usuários, assim como realizar a criação de código modelo para a refatoração e upgrade de sistemas legados, para manter a segurança e a eficiência.
+            </p>
+          </div>
+
+          <div class="card mt-12">
+            <h3 class="text-white font-bold text-2xl">Instituto Federal de Ciência e Técnologia de Sergipe</h3>
+            <p class="text-white text-base font-light text-justify mt-2">Depois de implementar diversas iniciativas de melhoria e padronização de código, implementação de fluxo organizacionais de equipe e práticas de desenvolvimento compatíveis com mercado enquanto estagiário, tive o reconhecimento ao qual me fez poder avançar ainda mais no desenvolvimento do projeto de cobrança de protesto como também a inovação em modernizar as execuções fiscais do município de Aracaju, desenvolvendo um ecossistema com micro serviços necessários para a manutenibilidade, desempenho e monitoramento dos fluxos. Idealizei e implementei serviços de comunicação com a fazenda municipal, serviços de extração de informações em certidões de dívida ativa, serviço de comunicação SOAP com o cartório. Além disso pude impactar diretamente em outros projetos, tanto coordenando, quanto desenvolvendo soluções para problemas recorrentes com integrações em sistemas terceirizados, sanando as dores que persistiam há algum tempo diante dos usuários, assim como realizar a criação de código modelo para a refatoração e upgrade de sistemas legados, para manter a segurança e a eficiência.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid grid-cols-[40%_60%] gap-4 p-4 mt-32">
+      <div class="flex flex-col justify-center items-center">
+        <div class="flex flex-col text-7xl font-black text-white">
+          <span>P</span>
+          <span>R</span>
+          <span>O</span>
+          <span>J</span>
+          <span>E</span>
+          <span>T</span>
+          <span>S</span>
+        </div>
+      </div>
+      <div class="flex flex-col justify-center items-center">
+        <div class="flex flex-col text-base font-bold text-white">
+          <div class="card flex">
+            <div class="flex justify-start mr-5">
+              <img :src="ufsmonitor" alt="Ufs Monitor" class="w-[92rem] h-[12rem] object-cover">
+            </div>
+            <div class="flex flex-col">
+              <h3 class="text-white font-bold text-2xl">UFS Monitor</h3>
+              <p class="text-white text-base font-light text-justify mt-2">
+                UFSMonitor é um projeto pessoal que surgiu desde quando entrei na faculdade.
+                Por ser curioso e metódico eu andei por toda a universidade para conhecê-la e
+                aprender a me localizar, todavia com o passar do tempo percebi que era relativamente
+                díficil para calouros e até mesmo para veteranos a própria localização no ambiente UFS.
+              </p>
+            </div>
+          </div>
+          <div class="card mt-12 flex">
+            <div class="flex justify-start mr-5">
+              <img :src="mmorpg" alt="MMORPG" class="w-[111rem] h-[12rem] object-cover">
+            </div>
+            <div class="flex flex-col">
+              <h3 class="text-white font-bold text-2xl">MMORPG</h3>
+              <p class="text-white text-base font-light text-justify mt-2">
+                O projeto consiste na implementação de um jogo MMORPG baseado no jogo legend online
+                que começa na criação da conta, para que o usuário acesse os devidos servidores.
+
+                O mesmo foi realizado na disciplina de Banco de Dados I gerando o aprendizado sobre
+                processos de modelagem, geração e customização de DER, avaliação de espaço de memória,
+                avaliação de desempenho e trabalho em equipe.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 </template>
