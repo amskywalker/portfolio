@@ -234,154 +234,52 @@ import { BiGithub } from "oh-vue-icons/icons";
 
 <template>
   <main class="h-full">
-    <section class="grid grid-cols-2 grid-rows-1 gap-4 p-4 h-56">
+    <section class="grid grid-cols-3 grid-rows-1 gap-4 pt-2 mb-25">
+      <div class="folder">
+        <p>Skywalker</p>
+      </div>
       <div class="personal-information">
         <div class="flex flex-col">
-          <h2 class="font-black text-3xl text-yellow-400">Adailton Moura</h2>
-          <h4 class="text-2xl text-yellow-400">Back End Engineer</h4>
-          <p class="text-yellow-400">Changing the world... <br> Or at least, trying.</p>
+          <h2 class="text-orange-400 text-3xl cabin-condensed-regular ">Changing the world... <br> Or at least, trying.</h2>
         </div>
       </div>
       <div class="social">
         <div class="flex justify-end gap-3">
-          <v-icon name="bi-github" class="text-orange-600" scale="2"/>
-          <v-icon name="bi-linkedin" class="text-orange-600" scale="2"/>
-          <v-icon name="md-email-sharp" class="text-orange-600" scale="2"/>
+          <v-icon name="bi-github" class="text-pink-500" scale="2"/>
+          <v-icon name="bi-linkedin" class="text-pink-500" scale="2"/>
+          <v-icon name="md-email-sharp" class="text-pink-500" scale="2"/>
         </div>
       </div>
     </section>
 
-    <section class="grid grid-cols-[40%_60%] gap-4 p-4">
-      <div class="flex flex-col justify-center items-center">
-          <div class="flex flex-col text-7xl font-black text-white">
-            <span>A</span>
-            <span>B</span>
-            <span>O</span>
-            <span>U</span>
-            <span>T</span>
-        </div>
-      </div>
-      <div class="flex flex-col justify-center items-center">
-        <div class="flex flex-col text-base font-bold text-white">
-          <span class="font-light text-justify">
-            Sou um entusiasta da tecnologia que começou sua jornada no desenvolvimento de sistemas
-            em 2017, estudando HTML, CSS,  JavaScript e PHP em apostilas na internet. Em 2018,
-            ingressei no  Instituto Federal de Ciência e Tecnologia de Sergipe (IFS) no curso de
-            Informática, onde adquiri uma base sólida em algoritmos, orientação a  objetos com Java,
-            banco de dados com MySQL e noções de engenharia de  software.
-            <br>
-            <br>
-            Em 2020, iniciei minha carreira profissional utilizando PHP 7 e Laravel no backend,
-            junto com JavaScript, jQuery e Vue.js no  frontend. Esse período foi fundamental para
-            meu crescimento,  consolidando minhas habilidades em desenvolvimento full stack.
-            <br>
-            <br>
-            Atualmente, estou concluindo o curso de  Ciência da Computação na
-            Universidade  Federal de Sergipe (UFS), parte fundamental para desenvolver ainda mais
-            meus conhecimentos sobre lógica, algoritmos e fundamentos primordiais na área de
-            tecnologia. Atuo como analista na SergipeTec, terceirizado para a Procuradoria Geral
-            do Município de Aracaju, cujas tecnologias  utlizadas são, Java com Spring Boot,
-            Groovy com Grails e Vue js.
-            <br>
-            <br>
-            Meu objetivo principal é me tornar um especialista em backend, afim de continuar
-            aprendendo e compartilhando conhecimento, buscando criar  soluções inovadoras que
-            impactam positivamente o dia a dia das pessoas.</span>
-        </div>
+    <section class="flex flex-col mb-15 p-5">
+      <h2 class="text-3xl font-bold text-orange-400 mb-3">ABOUT</h2>
+      <div class="flex flex-col text-base font-bold text-white">
+        <span class="font-thin text-justify text-xl">
+          Desenvolvedor backend com mais de 3 anos de  experiência, especializado em Java – criando projetos com Spring Boot e  mantendo sistemas legados em Grails. Possuo conhecimento prático em PHP  moderno e JavaScript, utilizando a stack Laravue (Laravel + VueJs), além de prática comprovada em ambientes de cloud (AWS e cloud privada),  Docker e fundamentos de Kubernetes. Domínio em GraphQL, microsserviços e gerenciamento de bancos de dados relacionais (MySQL, Postgres) e não  relacionais (MongoDB).
+        </span>
       </div>
     </section>
 
-    <section class="grid grid-cols-[40%_60%] gap-4 p-4 mt-32">
-        <div class="flex flex-col justify-center items-center">
-          <div class="flex flex-col text-7xl font-black text-white">
-            <span>E</span>
-            <span>X</span>
-            <span>P</span>
-            <span>E</span>
-            <span>R</span>
-            <span>I</span>
-            <span>E</span>
-            <span>N</span>
-            <span>C</span>
-            <span>E</span>
-            <span>S</span>
-          </div>
-        </div>
-      <div class="flex flex-col justify-start items-start">
-        <div class="flex flex-col text-base font-bold text-white">
-
-          <div class="card">
-            <h3 class="text-white font-bold text-2xl">Analista de Sistemas Java</h3>
-            <p class="text-white text-base font-light text-justify mt-2">Depois de implementar diversas iniciativas de melhoria e padronização de código, implementação de fluxo organizacionais de equipe e práticas de desenvolvimento compatíveis com mercado enquanto estagiário, tive o reconhecimento ao qual me fez poder avançar ainda mais no desenvolvimento do projeto de cobrança de protesto como também a inovação em modernizar as execuções fiscais do município de Aracaju, desenvolvendo um ecossistema com micro serviços necessários para a manutenibilidade, desempenho e monitoramento dos fluxos. Idealizei e implementei serviços de comunicação com a fazenda municipal, serviços de extração de informações em certidões de dívida ativa, serviço de comunicação SOAP com o cartório. Além disso pude impactar diretamente em outros projetos, tanto coordenando, quanto desenvolvendo soluções para problemas recorrentes com integrações em sistemas terceirizados, sanando as dores que persistiam há algum tempo diante dos usuários, assim como realizar a criação de código modelo para a refatoração e upgrade de sistemas legados, para manter a segurança e a eficiência.
-            </p>
-          </div>
-
-          <div class="card mt-12">
-            <h3 class="text-white font-bold text-2xl">Desenvolvedor de Sistemas Java</h3>
-            <p class="text-white text-base font-light text-justify mt-2">Depois de implementar diversas iniciativas de melhoria e padronização de código, implementação de fluxo organizacionais de equipe e práticas de desenvolvimento compatíveis com mercado enquanto estagiário, tive o reconhecimento ao qual me fez poder avançar ainda mais no desenvolvimento do projeto de cobrança de protesto como também a inovação em modernizar as execuções fiscais do município de Aracaju, desenvolvendo um ecossistema com micro serviços necessários para a manutenibilidade, desempenho e monitoramento dos fluxos. Idealizei e implementei serviços de comunicação com a fazenda municipal, serviços de extração de informações em certidões de dívida ativa, serviço de comunicação SOAP com o cartório. Além disso pude impactar diretamente em outros projetos, tanto coordenando, quanto desenvolvendo soluções para problemas recorrentes com integrações em sistemas terceirizados, sanando as dores que persistiam há algum tempo diante dos usuários, assim como realizar a criação de código modelo para a refatoração e upgrade de sistemas legados, para manter a segurança e a eficiência.
-            </p>
-          </div>
-
-          <div class="card mt-12">
-            <h3 class="text-white font-bold text-2xl">Estágio em Desenvolvimento de Sistemas Java</h3>
-            <p class="text-white text-base font-light text-justify mt-2">Após uma pausa na carreira para aprofundar meus conhecimentos teóricos essenciais ao desenvolvimento como desenvolvedor, tive a oportunidade de estagiar na Procuradoria Geral do Município, onde apliquei na prática conceitos de modelagem de requisitos e engenharia de software. Nesse estágio, iniciei um projeto para modernizar o fluxo de cobrança de protestos da procuradoria, utilizando Java com o framework Spring. Esse trabalho proporcionou uma evolução significativa no meu domínio da linguagem Java e na aplicação de padrões de projeto.</p>
-          </div>
-
-          <div class="card mt-12">
-            <h3 class="text-white font-bold text-2xl">Desenvolvedor de Sistemas PHP</h3>
-            <p class="text-white text-base font-light text-justify mt-2">Graças ao esforço realizado no estágio pude desenvolver minhas habilidades ao ponto de ser contrato, com isso novos desafios foram necessário como dar manutenção em sistemas legados e que me deu uma sólida experiência em melhorias e otimização de código e também me fez colocar em prática os princípios de Clean Code assim tornando o sistema mais eficiente e fácil de manter. Também desenvolvi habilidades em comunicação e trabalho em equipe, além de contribuir com o levantamento de requisitos e estimativas de tarefas, o que facilitou a coordenação e execução dos projetos.</p>
-          </div>
-            <div class="card mt-12">
-              <h3 class="text-white font-bold text-2xl">Estágio em Desenvolvimento de Sistemas Java</h3>
-              <p class="text-white text-base font-light text-justify mt-2">Durante esse período de estágio, aperfeiçoei minhas habilidades na linguagem PHP, especialmente ao trabalhar com manutenção de sistemas legados. Aproveitei o período para estudar Laravel e VueJS, o que ampliou bastante o meu conhecimento em frameworks e me permitiu desenvolver integrações entre plataformas utilizando Webhooks e APIs. O período foi essencial para aprimorar tanto minha lógica de programação quanto minha experiência em desenvolvimento e manutenção de aplicações web.</p>
-            </div>
-        </div>
+    <section class="flex flex-col mb-15 bg-[#232323] p-5">
+      <h2 class="text-3xl font-bold text-orange-400 mb-5">EXPERIENCES</h2>
+      <h2 class="text-xl font-bold text-white mb-2">Analista de Sistemas Java</h2>
+      <div class="flex flex-col text-base font-bold text-white">
+        <span class="font-light text-justify">
+          - Migração de arquitetura Spring Rest para  Spring GraphQL, diminuindo o tempo de requisições em 30% em boa parte do sistema e trazendo adaptabilidade aos múltiplos frontends. <br> <br>
+          - Melhoria nos fluxos de git flow acelerando o processo de homologação das funcionalidades desenvolvidas pelos desenvolvedores.<br><br>
+          - Migração de projeto monolito para microsserviços em Spring Boot, centralizando o gerenciamento de dependências e modernizando o fluxo de  trabalho da equipe.<br><br>
+          - Construção de ferramenta para integração com cartórios municipais utilizando Java em comunicações SOAP com XML.<br><br>
+          - Análise de melhorias de queries aumentando a performance dos sistemas.<br><br>
+          - Atualização de dependências e garantia de confiabilidade e segurança dos projetos.<br><br>
+          - Implementação da prática de construções de Architecture Decision Records (ADR’s)
+        </span>
       </div>
     </section>
 
-    <section class="grid grid-cols-[40%_60%] gap-4 p-4 mt-32">
-      <div class="flex flex-col justify-center items-center">
-        <div class="flex flex-col text-7xl font-black text-white">
-          <span>E</span>
-          <span>D</span>
-          <span>U</span>
-          <span>C</span>
-          <span>A</span>
-          <span>T</span>
-          <span>I</span>
-          <span>O</span>
-          <span>N</span>
-        </div>
-      </div>
-      <div class="flex flex-col justify-center items-center">
-        <div class="flex flex-col text-base font-bold text-white">
-          <div class="card">
-            <h3 class="text-white font-bold text-2xl">Universidade Federal de Sergipe</h3>
-            <p class="text-white text-base font-light text-justify mt-2">Depois de implementar diversas iniciativas de melhoria e padronização de código, implementação de fluxo organizacionais de equipe e práticas de desenvolvimento compatíveis com mercado enquanto estagiário, tive o reconhecimento ao qual me fez poder avançar ainda mais no desenvolvimento do projeto de cobrança de protesto como também a inovação em modernizar as execuções fiscais do município de Aracaju, desenvolvendo um ecossistema com micro serviços necessários para a manutenibilidade, desempenho e monitoramento dos fluxos. Idealizei e implementei serviços de comunicação com a fazenda municipal, serviços de extração de informações em certidões de dívida ativa, serviço de comunicação SOAP com o cartório. Além disso pude impactar diretamente em outros projetos, tanto coordenando, quanto desenvolvendo soluções para problemas recorrentes com integrações em sistemas terceirizados, sanando as dores que persistiam há algum tempo diante dos usuários, assim como realizar a criação de código modelo para a refatoração e upgrade de sistemas legados, para manter a segurança e a eficiência.
-            </p>
-          </div>
+    <section class="flex flex-col">
+      <h2 class="text-3xl font-bold text-orange-400 mb-5">PROJECTS</h2>
 
-          <div class="card mt-12">
-            <h3 class="text-white font-bold text-2xl">Instituto Federal de Ciência e Técnologia de Sergipe</h3>
-            <p class="text-white text-base font-light text-justify mt-2">Depois de implementar diversas iniciativas de melhoria e padronização de código, implementação de fluxo organizacionais de equipe e práticas de desenvolvimento compatíveis com mercado enquanto estagiário, tive o reconhecimento ao qual me fez poder avançar ainda mais no desenvolvimento do projeto de cobrança de protesto como também a inovação em modernizar as execuções fiscais do município de Aracaju, desenvolvendo um ecossistema com micro serviços necessários para a manutenibilidade, desempenho e monitoramento dos fluxos. Idealizei e implementei serviços de comunicação com a fazenda municipal, serviços de extração de informações em certidões de dívida ativa, serviço de comunicação SOAP com o cartório. Além disso pude impactar diretamente em outros projetos, tanto coordenando, quanto desenvolvendo soluções para problemas recorrentes com integrações em sistemas terceirizados, sanando as dores que persistiam há algum tempo diante dos usuários, assim como realizar a criação de código modelo para a refatoração e upgrade de sistemas legados, para manter a segurança e a eficiência.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="grid grid-cols-[40%_60%] gap-4 p-4 mt-32">
-      <div class="flex flex-col justify-center items-center">
-        <div class="flex flex-col text-7xl font-black text-white">
-          <span>P</span>
-          <span>R</span>
-          <span>O</span>
-          <span>J</span>
-          <span>E</span>
-          <span>T</span>
-          <span>S</span>
-        </div>
-      </div>
       <div class="flex flex-col justify-center items-center">
         <div class="flex flex-col text-base font-bold text-white">
           <div class="card flex">
@@ -417,5 +315,8 @@ import { BiGithub } from "oh-vue-icons/icons";
         </div>
       </div>
     </section>
+    <footer class="flex justify-center text-white mt-10 p-5 bg-[#232323]">
+      <p>Desenvolvido com muito ☕ por Adailton Moura</p>
+    </footer>
   </main>
 </template>
