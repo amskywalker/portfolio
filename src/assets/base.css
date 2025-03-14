@@ -3,7 +3,7 @@
 /* color palette from <https://github.com/vuejs/theme> */
 
 .app {
-    @apply flex w-screen h-screen flex-col px-96 py-12 m-0;
+    @apply flex w-screen h-screen flex-col  py-12 m-0;
 }
 
 canvas {
